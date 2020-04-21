@@ -1,0 +1,32 @@
+{
+    "samples": [
+        {
+            "description": "handles exercise example",
+            "text": "The quick brown fox and the quick blue hare.",
+            "expectation": {
+                "the quick": 2,
+                "quick brown": 1,
+                "brown fox": 1,
+                "fox and": 1,
+                "and the": 1,
+                "quick blue": 1,
+                "blue hare": 1
+            }
+        },
+        {
+            "description": "handles repeating words",
+            "text": "hello hello Hello heLLo, hellO HELLO",
+            "expectation": {
+                "hello hello": 5
+            }
+        },
+        {
+            "description": "ignores non letters and extra spaces",
+            "text": "five5#  four4, five.   four ",
+            "expectation": {
+                "five four": 2,
+                "four five": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "bigram-counter",
+  "version": "1.0.0",
+  "description": "A Bigram Counter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc --reporter=text mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istrau2/bigram-counter.git"
+  },
+  "author": "Ishai Strauss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/istrau2/bigram-counter/issues"
+  },
+  "homepage": "https://github.com/istrau2/bigram-counter#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.1"
+  }
+}
