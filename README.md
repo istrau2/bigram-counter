@@ -7,7 +7,7 @@ npm install
 ```
 
 ## Running the Counter
-You can count the bigrams on an arbitrary block of text like so:
+You can count the bigrams in an arbitrary block of text like so:
 ```
 node index text="The quick brown fox and the quick blue hare."
 ```
